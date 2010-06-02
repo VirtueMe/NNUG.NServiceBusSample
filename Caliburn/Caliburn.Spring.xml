@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Caliburn.Spring</name>
+    </assembly>
+    <members>
+        <member name="T:Caliburn.Spring.SpringAdapter">
+            <summary>
+            An adapter allowing an <see cref="T:Spring.Context.Support.GenericApplicationContext"/> to plug into Caliburn via <see cref="T:Microsoft.Practices.ServiceLocation.IServiceLocator"/> and <see cref="T:Caliburn.Core.IConfigurator"/>.
+            </summary>
+        </member>
+        <member name="M:Caliburn.Spring.SpringAdapter.#ctor(Spring.Context.Support.GenericApplicationContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Caliburn.Spring.SpringAdapter"/> class.
+            </summary>
+            <param name="context">The context.</param>
+        </member>
+        <member name="M:Caliburn.Spring.SpringAdapter.#ctor(Spring.Context.Support.GenericApplicationContext,Spring.Objects.Factory.Config.AutoWiringMode)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Caliburn.Spring.SpringAdapter"/> class.
+            </summary>
+            <param name="context">The context.</param>
+            <param name="autoWiringMode">The auto wiring mode for component instantiation.</param>
+        </member>
+        <member name="M:Caliburn.Spring.SpringAdapter.DoGetInstance(System.Type,System.String)">
+            <summary>
+            Resolves a requested service instance.
+            </summary>
+            <param name="serviceType">Type of instance requested.</param>
+            <param name="key">Name of registered service you want. May be null.</param>
+            <returns>
+            The requested service instance or null, if <paramref name="key"/> is not found.
+            </returns>
+        </member>
+        <member name="M:Caliburn.Spring.SpringAdapter.DoGetAllInstances(System.Type)">
+            <summary>
+            Resolves service instances by type.
+            </summary>
+            <param name="serviceType">Type of service requested.</param>
+            <returns>
+            Sequence of service instance objects matching the <paramref name="serviceType"/>.
+            </returns>
+        </member>
+        <member name="M:Caliburn.Spring.SpringAdapter.ConfigureWith(System.Collections.Generic.IEnumerable{Caliburn.Core.ComponentInfo})">
+            <summary>
+            Configures the container with the provided components.
+            </summary>
+            <param name="components">The components.</param>
+        </member>
+        <member name="P:Caliburn.Spring.SpringAdapter.Context">
+            <summary>
+            Gets the context.
+            </summary>
+            <value>The context.</value>
+        </member>
+    </members>
+</doc>
