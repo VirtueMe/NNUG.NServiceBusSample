@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>endpointconfigserver</Title>
+      <Shortcut>endpointconfigserver</Shortcut>
+      <Description>konfigurerer server</Description>
+      <Author>Jan Benny Thomas</Author>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[
+        var config = Configure.With()
+                .DefaultBuilder()
+                .XmlSerializer();
+            
+            config.Configurer.ConfigureComponent<Session>(ComponentCallModelEnum.Singleton);    ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
