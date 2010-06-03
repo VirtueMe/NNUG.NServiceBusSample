@@ -1,0 +1,10 @@
+For å kjøre prosjektet må man endre debug properties for følgende prosjekt:
+
+* NNUG.ProsjektServer
+* NNUG.ProsjektClient
+
+Velg "Start external program"
+Sett inn stien til \bin\debug\NServiceBus.Host.exe
+
+Krav for å kjøre RavenDB.exe
+* .Net 4.0

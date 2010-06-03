@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNUG.Prosjekt.Client", "Messaging\NNUG.Client\NNUG.Prosjekt.Client.csproj", "{BE275442-6640-4541-8BC6-35D207AB225D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNUG.Messages", "Messaging\NNUG.Messages\NNUG.Messages.csproj", "{0FFE25F7-6507-442D-8232-3965D3A2F0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNUG.ProsjektServer", "Messaging\NNUG.ProsjektServer\NNUG.ProsjektServer.csproj", "{415F089A-3309-47A2-9809-1EDA9E27AD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNUG.Prosjekt.Domain", "Messaging\NNUG.Prosjekt.Domain\NNUG.Prosjekt.Domain.csproj", "{E44FFA4A-33F3-414D-B2AE-71CE0666F647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNUG.ProsjektClient", "Messaging\NNUG.ProsjektClient\NNUG.ProsjektClient.csproj", "{5CC59748-DB71-42A1-B2FD-386CEA57432D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{2339D131-EABE-432C-949E-DBAE19C2571A}"
+	ProjectSection(SolutionItems) = preProject
+		Read Me 1.txt = Read Me 1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFClient", "WPFClient", "{A5D90D78-4171-4BB7-870B-4DDA4B50634E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE275442-6640-4541-8BC6-35D207AB225D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE275442-6640-4541-8BC6-35D207AB225D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE275442-6640-4541-8BC6-35D207AB225D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE275442-6640-4541-8BC6-35D207AB225D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFE25F7-6507-442D-8232-3965D3A2F0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFE25F7-6507-442D-8232-3965D3A2F0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFE25F7-6507-442D-8232-3965D3A2F0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFE25F7-6507-442D-8232-3965D3A2F0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415F089A-3309-47A2-9809-1EDA9E27AD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415F089A-3309-47A2-9809-1EDA9E27AD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415F089A-3309-47A2-9809-1EDA9E27AD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415F089A-3309-47A2-9809-1EDA9E27AD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44FFA4A-33F3-414D-B2AE-71CE0666F647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44FFA4A-33F3-414D-B2AE-71CE0666F647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44FFA4A-33F3-414D-B2AE-71CE0666F647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44FFA4A-33F3-414D-B2AE-71CE0666F647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC59748-DB71-42A1-B2FD-386CEA57432D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC59748-DB71-42A1-B2FD-386CEA57432D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC59748-DB71-42A1-B2FD-386CEA57432D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC59748-DB71-42A1-B2FD-386CEA57432D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FFE25F7-6507-442D-8232-3965D3A2F0C8} = {2339D131-EABE-432C-949E-DBAE19C2571A}
+		{415F089A-3309-47A2-9809-1EDA9E27AD72} = {2339D131-EABE-432C-949E-DBAE19C2571A}
+		{E44FFA4A-33F3-414D-B2AE-71CE0666F647} = {2339D131-EABE-432C-949E-DBAE19C2571A}
+		{5CC59748-DB71-42A1-B2FD-386CEA57432D} = {2339D131-EABE-432C-949E-DBAE19C2571A}
+		{A5D90D78-4171-4BB7-870B-4DDA4B50634E} = {2339D131-EABE-432C-949E-DBAE19C2571A}
+		{BE275442-6640-4541-8BC6-35D207AB225D} = {A5D90D78-4171-4BB7-870B-4DDA4B50634E}
+	EndGlobalSection
+EndGlobal
